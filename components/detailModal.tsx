@@ -1,8 +1,5 @@
-"use client";
-import React, { useEffect } from "react";
 import { FaWallet, FaSuitcaseRolling } from "react-icons/fa";
 import { BsClockFill } from "react-icons/bs";
-import { useState } from "react";
 import dummyData from "@/lib/dummyData.json";
 import Link from "next/link";
 
@@ -57,9 +54,12 @@ const DetailModal = ({ selectedJob }: { selectedJob: number | undefined }) => {
 
           <div className=" ">
             <span>
-              {data?.jobDetails?.jobType.map((el) => {
+              {data?.jobDetails?.jobType.map((el, index) => {
                 return (
-                  <span className="bg-orange-100 w-fit mt-1 p-1 px-2 rounded-lg text-sm ml-4">
+                  <span
+                    key={index}
+                    className="bg-orange-100 w-fit mt-1 p-1 px-2 rounded-lg text-sm ml-4"
+                  >
                     {el}
                   </span>
                 );
@@ -78,9 +78,12 @@ const DetailModal = ({ selectedJob }: { selectedJob: number | undefined }) => {
 
           <div>
             <span className="flex space-x-3">
-              {data?.jobDetails?.shifts.map((el) => {
+              {data?.jobDetails?.shifts.map((el, index) => {
                 return (
-                  <span className="bg-orange-100 w-fit mt-1 p-1 px-2 rounded-lg text-sm ml-4">
+                  <span
+                    key={index}
+                    className="bg-orange-100 w-fit mt-1 p-1 px-2 rounded-lg text-sm ml-4"
+                  >
                     {el}
                   </span>
                 );
@@ -99,7 +102,7 @@ const DetailModal = ({ selectedJob }: { selectedJob: number | undefined }) => {
         <div>
           {data?.benefits?.map((el, index) => {
             return (
-              <div className="flex items-center space-x-2 ">
+              <div key={index} className="flex items-center space-x-2 ">
                 <span className="text-xl font-bold ">.</span>
                 <span className="mt-2 text-sm ">{el}</span>
               </div>
@@ -124,9 +127,9 @@ const DetailModal = ({ selectedJob }: { selectedJob: number | undefined }) => {
       <div>
         <h1 className="font-semibold">Key Responsibilities</h1>
         <div>
-          {data?.keyResponsibilities?.map((el) => {
+          {data?.keyResponsibilities?.map((el, index) => {
             return (
-              <div className="flex items-center space-x-2 ">
+              <div key={index} className="flex items-center space-x-2 ">
                 <span className="text-xl font-bold ">.</span>
                 <span className="mt-2 text-sm ">{el}</span>
               </div>
@@ -142,9 +145,9 @@ const DetailModal = ({ selectedJob }: { selectedJob: number | undefined }) => {
       <div>
         <h1 className="font-semibold">Qualifications and Skills</h1>
         <div>
-          {data?.qualificationSkills?.map((el) => {
+          {data?.qualificationSkills?.map((el, index) => {
             return (
-              <div className="flex items-center space-x-2 ">
+              <div key={index} className="flex items-center space-x-2 ">
                 <span className="text-xl font-bold ">.</span>
                 <span className="mt-2 text-sm ">{el}</span>
               </div>

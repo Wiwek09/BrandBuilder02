@@ -1,6 +1,5 @@
 import BoxContainer from "../components/boxContainer";
 import dummyData from "@/lib/dummyData.json";
-import DetailContainer from "../components/detailContainer";
 
 export default function Home() {
   return (
@@ -8,7 +7,6 @@ export default function Home() {
       <h1 className="text-center mt-4 ">Join Our Team</h1>
       <p>Open Positions ({dummyData.length})</p>
       <BoxContainer />
-      {/* <DetailContainer /> */}
     </div>
   );
 }
