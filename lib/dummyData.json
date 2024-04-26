@@ -1,0 +1,162 @@
+[
+  {
+    "_id": 1,
+    "quickApply": false,
+    "applyNow": true,
+    "jobTitle": "Souf Chef",
+    "shortDescription": "Culinary Creativity Meets Leadership – Join Our Dynamic Kitchen Team!",
+    "organization": "Passage to India - Indian Restaurant",
+    "organizationLocation": "9510 University City Blvd 101 Charlotte, NC 28213",
+    "jobDescription": "Full-time, including weekends and evenings",
+    "jobDetails": {
+      "payOut": ["$45,000 - $55,000 per year"],
+      "jobType": ["Full-time"],
+      "shifts": ["12-Hour Shifts", "Evening Shift", "Weekend Shifts"]
+    },
+    "benefits": [
+      "Health insurance",
+      "Paid vacation",
+      "Employee medal discounts"
+    ],
+    "jobSummary": "Assist the Head Chef in all aspects of kitchen management, including menu creation, food preparation, and staff supervision",
+    "keyResponsibilities": [
+      "Oversee and organize kitchen operations",
+      "Supervise and train kitchen staff",
+      "Ensure high-quality food preparation",
+      "Assist in menu development and inventory management"
+    ],
+    "qualificationSkills": [
+      "Culinary school degree",
+      "3+ years of experience in a similar role",
+      "Strong leadership and organizational skills",
+      "Deep knowledge of cooking techniques and recipes"
+    ]
+  },
+  {
+    "_id": 2,
+    "quickApply": true,
+    "applyNow": false,
+    "jobTitle": "Waitstaff",
+    "shortDescription": "Be the Face of Exceptional Dining Service – Where Every Guest Interaction Matters!",
+    "organization": "Passage to India - Indian Restaurant",
+    "organizationLocation": "9510 University City Blvd 101 Charlotte, NC 28213",
+    "jobDescription": "Part-time or Full-time, including weekends and evenings",
+    "jobDetails": {
+      "payOut": ["$12 - $15 per hour"],
+      "jobType": ["Full-time", "Part-time"],
+      "shifts": ["12-Hour Shifts", "Evening Shift", "Weekend Shifts"]
+    },
+    "benefits": [
+      "Flexible scheduling",
+      "Meal discounts",
+      "Training and development opportunities"
+    ],
+    "jobSummary": "Provide excellent customer service by taking orders, serving food and drinks, and ensuring a pleasant dining experience",
+    "keyResponsibilities": [
+      "Greet and assist customers",
+      "Take and serve orders promptly",
+      "Handle cash and credit transactions",
+      "Maintain cleanliness and organization of dining area"
+    ],
+    "qualificationSkills": [
+      "High school diploma or equivalent",
+      "Previous serving experience preferred",
+      "Excellent communication and interpersonal skills",
+      "Ability to work in a fast-paced environment"
+    ]
+  },
+  {
+    "_id": 3,
+    "quickApply": true,
+    "applyNow": false,
+    "jobTitle": "Bartender",
+    "shortDescription": "Culinary Creativity Meets Leadership – Join Our Dynamic Kitchen!",
+    "organization": "Passage to India - Indian Restaurant",
+    "organizationLocation": "9510 University City Blvd 101 Charlotte, NC 28213",
+    "jobDescription": "Full-time, including weekends and evenings",
+    "jobDetails": {
+      "payOut": ["$10 - $13 per hour", "Tips"],
+      "jobType": ["Full-time", "Part-time"],
+      "shifts": ["Evening Shift", "Weekend Shifts"]
+    },
+    "benefits": [
+      "Health insurance",
+      "Paid vacation",
+      "Employee medal discounts"
+    ],
+    "jobSummary": "Mix and serve alcoholic and non-alcoholic beverages while providing a friendly and engaging customer experience",
+    "keyResponsibilities": [
+      "Prepare and serve drinks according to recipes",
+      "Manage bar inventory and supplies",
+      "Maintain a clean and organized bar area",
+      "Engage with customers and ensure their satisfaction"
+    ],
+    "qualificationSkills": [
+      "Previous bartending experience",
+      "Knowledge of mixology and drink preparation",
+      "Strong communication skills",
+      "Ability to multitask in a busy environment"
+    ]
+  },
+  {
+    "_id": 4,
+    "quickApply": false,
+    "applyNow": true,
+    "jobTitle": "Dishwasher",
+    "shortDescription": "The Backbone of Kitchen Efficiency – Essential Role in a Fast-Paced Culinary Environment",
+    "organization": "Passage to India - Indian Restaurant",
+    "organizationLocation": "9510 University City Blvd 101 Charlotte, NC 28213",
+    "jobDescription": "Full-time or Part-time, flexible hours",
+    "jobDetails": {
+      "payOut": ["$10 - $12 per hour"],
+      "jobType": ["Full-time", "Seasonal", "Contract"],
+      "shifts": ["Full-time", "Flexible hours"]
+    },
+    "benefits": [
+      "On-the-job training",
+      "Meal discounts",
+      "Flexible work hours"
+    ],
+    "jobSummary": "Ensure the cleanliness and availability of dishware and kitchen equipment, contributing to efficient kitchen operations",
+    "keyResponsibilities": [
+      "Wash and organize dishes, utensils, and kitchen equipment",
+      "Maintain cleanliness of kitchen areas",
+      "Assist in basic food preparation as needed",
+      "Ensure compliance with sanitation regulations"
+    ],
+    "qualificationSkills": [
+      "No formal education required",
+      "Ability to work in a fast-paced environment",
+      "Good organizational skills",
+      "Willingness to work in a wet, hot, and physically demanding environment"
+    ]
+  },
+  {
+    "_id": 5,
+    "quickApply": false,
+    "applyNow": false,
+    "jobTitle": "Sr. Head Chef",
+    "link": "/jobs"
+  },
+  {
+    "_id": 6,
+    "quickApply": false,
+    "applyNow": false,
+    "jobTitle": "Cashier",
+    "link": "/jobs"
+  },
+  {
+    "_id": 7,
+    "quickApply": false,
+    "applyNow": false,
+    "jobTitle": "Kitchen Helper",
+    "link": "/jobs"
+  },
+  {
+    "_id": 8,
+    "quickApply": false,
+    "applyNow": false,
+    "jobTitle": "Waiter",
+    "link": "/jobs"
+  }
+]
